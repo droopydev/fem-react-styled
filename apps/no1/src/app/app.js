@@ -1,13 +1,14 @@
 import styled from 'styled-components';
-import NxWelcome from './nx-welcome';
-const StyledApp = styled.div`
-  // Your style here
-`;
+// import NxWelcome from './nx-welcome';
+import Fem from './fem';
+import { GlobalStyle } from '../components/globals/globalStyles';
+
 export function App() {
   return (
-    <StyledApp>
-      <NxWelcome title="no1" />
-    </StyledApp>
+    <>
+      <GlobalStyle />
+      <Fem />
+    </>
   );
 }
 export default App;
