@@ -1,6 +1,6 @@
 # Newbie01 - Order Summary Component
 
-![Screenshot of Challenge](./src/assets/desktop-design.jpg)
+![Screenshot of Challenge](./src/assets/readme-cover.png)
 
 This challenge was my first attempt developing with the ReactStyled stack that I had planned for. It took me awhile to set the project up as I was trying out a number of new stuffs. First was setting up the monorepo with NX, and second was understanding how to build UI components with the CDD approach using Storybook.js . For more info on this approach, check out the root project README.
 
@@ -17,7 +17,7 @@ Instead of my usual process of developing UI (SASS with BEM approach), I find my
 
 ## ⚛️ UI Breakdown
 
-![Screenshot of Challenge](./src/assets/UIBreakdown.jpg)
+![Screenshot of Challenge](./src/assets/readme-uiBreakdown.jpg)
 
 <p align="center">A quick UI breakdown of how I splitted the component</p>
 <br/>
@@ -34,7 +34,7 @@ Instead of my usual process of developing UI (SASS with BEM approach), I find my
 
 - Reading and understanding how existing Design System built their Button components. There were a lot of terminology and methods that I find hard to comprehend.
 - Time Management.
-- Remembering the token naming that I wrote myself. In the end I created a Theme
+- Remembering the token naming that I wrote myself.
   <br/>
   <br/>
 
