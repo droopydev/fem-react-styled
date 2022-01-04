@@ -1,4 +1,12 @@
-# Newbie01 - Order Summary Component
+<div align="center">
+    <h1>Order Summary Component</h2>
+    <p>HTML, CSS</p>
+    <a> <strong>View Live Link</strong></a>
+    ·
+    <a> <strong>Frontendmentor</strong></a>
+</div>
+  <br/>
+  <br/>
 
 ![Screenshot of Challenge](./src/assets/readme-cover.png)
 
@@ -19,7 +27,7 @@ Instead of my usual process of developing UI (SASS with BEM approach), I find my
 
 ![Screenshot of Challenge](./src/assets/readme-uiBreakdown.jpg)
 
-<p align="center">A quick UI breakdown of how I splitted the component</p>
+<p align="center">A quick UI breakdown of the components in Figma</p>
 <br/>
 
 ## 🧠 What I Learned
