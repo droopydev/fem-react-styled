@@ -1,9 +1,9 @@
 <div align="center">
     <h1>Order Summary Component</h2>
     <p>HTML, CSS</p>
-    <a> <strong>View Live Link</strong></a>
+    <a href="https://reactstyled-n01.netlify.app/"> <strong>View Live Link</strong></a>
     ·
-    <a> <strong>Frontendmentor</strong></a>
+    <a href="https://www.frontendmentor.io/home"> <strong>Frontendmentor</strong></a>
 </div>
   <br/>
   <br/>
