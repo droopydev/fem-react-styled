@@ -1,6 +1,8 @@
 {
   "version": 2,
   "projects": {
+    "n02": "apps/n02",
+    "n02-e2e": "apps/n02-e2e",
     "no1": "apps/no1",
     "no1-e2e": "apps/no1-e2e",
     "test": "apps/test",
