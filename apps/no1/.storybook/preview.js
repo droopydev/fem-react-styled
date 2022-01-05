@@ -1,7 +1,7 @@
 import React from 'react';
 
-import { GlobalStyle } from '../src/components/Globals/globalStyles';
-import { GlobalTheme } from '../src/components/Globals/globalTheme';
+import { GlobalStyle } from '../src/components/globals/globalStyles';
+import { GlobalTheme } from '../src/components/globals/globalTheme';
 
 export const parameters = {
   options: {

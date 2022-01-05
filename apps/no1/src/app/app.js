@@ -1,6 +1,6 @@
 import Fem from './fem';
-import { GlobalStyle } from '../components/Globals/globalStyles';
-import { GlobalTheme } from '../components/Globals/globalTheme';
+import { GlobalStyle } from '../components/globals/globalStyles';
+import { GlobalTheme } from '../components/globals/globalTheme';
 
 export function App() {
   return (
