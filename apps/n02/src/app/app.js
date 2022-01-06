@@ -1,12 +1,12 @@
 import styled from 'styled-components';
-import NxWelcome from './nx-welcome';
+
 const StyledApp = styled.div`
-  // Your style here
+  background-color: red;
 `;
 export function App() {
   return (
     <StyledApp>
-      <NxWelcome title="n02" />
+      <p>hello</p>
     </StyledApp>
   );
 }
