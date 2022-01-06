@@ -1,13 +1,12 @@
-import styled from 'styled-components';
+import { GlobalTheme } from '../components/Globals/GlobalTheme';
+import { GlobalStyle } from '../components/Globals/GlobalStyles';
 
-const StyledApp = styled.div`
-  background-color: red;
-`;
 export function App() {
   return (
-    <StyledApp>
+    <GlobalTheme>
+      <GlobalStyle />
       <p>hello</p>
-    </StyledApp>
+    </GlobalTheme>
   );
 }
 export default App;

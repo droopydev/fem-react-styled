@@ -9,6 +9,10 @@ export const THEME = {
     veryLightGray: 'hsla(0, 0%, 95%, 1)',
   },
   typography: {
+    typeScale: {
+      baseSize: '100%',
+      ratio: '1.250',
+    },
     size: {
       xxs: 'calc(((1rem / var(--type-scale-ratio)) / var(--type-scale-ratio))/ var(--type-scale-ratio))',
       xs: 'calc((1rem / var(--type-scale-ratio)) / var(--type-scale-ratio))',
