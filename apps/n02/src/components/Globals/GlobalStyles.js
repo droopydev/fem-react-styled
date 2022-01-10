@@ -33,9 +33,17 @@ export const GlobalStyle = createGlobalStyle`
 
       body {
         color: var(--very-light-gray);
+        background-color: ${theme.colors.veryLightGray};
         font-family: ${theme.typography.fontFamily.primary};
         font-size: ${theme.typography.typeScale.baseSize};
         min-height: 100vh;
+        margin: 0;
+        padding: 0;
+      }
+
+      ol,
+      ul {
+        list-style: none;
         margin: 0;
         padding: 0;
       }

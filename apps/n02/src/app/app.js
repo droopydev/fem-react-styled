@@ -8,20 +8,33 @@ import PreviewCard from '../components/PreviewCard/PreviewCard.js';
 const PageWrapper = styled.div`
   align-items: center;
   display: flex;
-  min-height: 100vh;
   justify-content: center;
   margin: 0 auto;
+  min-height: 100vh;
   width: 80%;
 `;
 
-const CardGrid = styled.div`
-  display: flex;
-  flex-flow: column;
+const CardGrid = styled.ul`
+  display: grid;
   margin: 2rem 0 0 0;
+  border-radius: 1rem;
+  overflow: hidden;
 
   @media screen and (min-width: 600px) {
-    flex-flow: row;
+    grid-template-columns: repeat(2, 1fr);
+
+    > li:last-child {
+      grid-column: span 2;
+    }
+  }
+
+  @media screen and (min-width: 800px) {
+    grid-template-columns: repeat(3, 1fr);
     margin: 0 0 0 0;
+
+    > li:last-child {
+      grid-column: 3;
+    }
   }
 `;
 
@@ -31,14 +44,16 @@ export function App() {
       <GlobalStyle />
       <PageWrapper>
         <CardGrid>
-          {Data.map((item, index) => {
+          {Data.map((item) => {
             return (
-              <PreviewCard
-                icon={item.icon}
-                cardColor={item.cardColor}
-                children={item.description}
-                title={item.title}
-              />
+              <li key={item.title}>
+                <PreviewCard
+                  icon={item.icon}
+                  cardColor={item.cardColor}
+                  children={item.description}
+                  title={item.title}
+                />
+              </li>
             );
           })}
         </CardGrid>
