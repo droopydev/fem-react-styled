@@ -7,11 +7,12 @@ export const THEME = {
     veryDarkCyan: 'hsla(179, 100%, 13%, 1)',
     transparentWhite: 'hsla(0, 0%, 100%, 0.75)',
     veryLightGray: 'hsla(0, 0%, 95%, 1)',
+    white: 'hsla(0, 0%, 100%, 1)',
   },
   typography: {
     typeScale: {
       baseSize: '100%',
-      ratio: '1.250',
+      ratio: '1.200',
     },
     size: {
       xxs: 'calc(((1rem / var(--type-scale-ratio)) / var(--type-scale-ratio))/ var(--type-scale-ratio))',
@@ -26,7 +27,7 @@ export const THEME = {
     },
     fontFamily: {
       primary: "'Lexend Deca', sans-serif",
-      secondary: "'Big Shoulder Display', cursive",
+      secondary: "'Big Shoulders Display', cursive",
     },
   },
 };

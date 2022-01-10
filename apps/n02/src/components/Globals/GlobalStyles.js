@@ -32,13 +32,31 @@ export const GlobalStyle = createGlobalStyle`
       }
 
       body {
+        color: var(--very-light-gray);
+        font-family: ${theme.typography.fontFamily.primary};
+        font-size: ${theme.typography.typeScale.baseSize};
         height: 100vh;
         margin: 0;
         padding: 0;
+      }
 
-        font-family: ${theme.typography.fontFamily.primary};
-        font-size: ${theme.typography.typeScale.baseSize};
-        color: var(--very-light-gray);
+      h1 {
+        font-size: var(--text-3xl);
+      }
+      h2 {
+        font-size: var(--text-2xl);
+      }
+      h3 {
+        font-size: var(--text-xl);
+      }
+      h4 {
+        font-size: var(--text-lg);
+      }
+      h5 {
+        font-size: var(--text-md);
+      }
+      h6 {
+        font-size: var(--text-sm);
       }
     `}
 `;
