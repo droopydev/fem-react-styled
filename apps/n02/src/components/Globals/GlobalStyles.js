@@ -35,7 +35,7 @@ export const GlobalStyle = createGlobalStyle`
         color: var(--very-light-gray);
         font-family: ${theme.typography.fontFamily.primary};
         font-size: ${theme.typography.typeScale.baseSize};
-        height: 100vh;
+        min-height: 100vh;
         margin: 0;
         padding: 0;
       }

@@ -7,10 +7,8 @@ import iconFallback from '../../assets/icon-fallback.svg';
 const CardContainer = styled.div`
   ${({ theme, cardColor }) => css`
     background-color: ${cardColor};
-    border-radius: 10px;
-    max-width: 500px;
+    // min-width: 200px;
     padding: 2.5rem;
-    height: 500px;
     display: flex;
     flex-flow: column;
 
