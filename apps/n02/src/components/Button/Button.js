@@ -12,6 +12,13 @@ const StyledButton = styled.button`
     font-size: 1rem;
     padding: 1em 2em;
     text-align: center;
+    transition: 300ms;
+    outline: 2px solid ${theme.colors.white};
+
+    &:hover {
+      background-color: hsla(0, 0%, 100%, 0.2);
+      color: ${theme.colors.white};
+    }
   `}
 `;
 

@@ -7,10 +7,10 @@ import iconFallback from '../../assets/icon-fallback.svg';
 const CardContainer = styled.div`
   ${({ theme, cardColor }) => css`
     background-color: ${cardColor};
-    padding: 2.5rem;
     display: flex;
     flex-flow: column;
     height: 100%;
+    padding: 2.5rem;
 
     > img {
       display: inline-block;
@@ -43,16 +43,19 @@ const ButtonWrapper = styled.div`
 const PreviewCard = ({ cardColor, children, icon, title }) => {
   function fallbackIcon(ev) {
     ev.target.src = iconFallback;
-    console.log('helo');
+  }
+
+  function checkColor(propsColor) {
+    return CSS.supports(`background-color: ${propsColor}`) ? propsColor : 'red';
   }
 
   return (
-    <CardContainer cardColor={cardColor}>
+    <CardContainer cardColor={checkColor(cardColor)}>
       <img src={icon} alt="Icon" onError={fallbackIcon} />
       <h3>{title}</h3>
       <p>{children}</p>
       <ButtonWrapper>
-        <Button textColor={cardColor}>Learn More</Button>
+        <Button textColor={checkColor(cardColor)}>Learn More</Button>
       </ButtonWrapper>
     </CardContainer>
   );
@@ -62,6 +65,7 @@ export default PreviewCard;
 
 PreviewCard.propTypes = {
   cardColor: Proptypes.string,
+  icon: Proptypes.string,
   children: Proptypes.string,
   title: Proptypes.string,
 };
