@@ -1,9 +1,11 @@
 <div align="center">
     <h1>Order Summary Component</h2>
-    <p>HTML, CSS</p>
-    <a href="https://reactstyled-n01.netlify.app/"> <strong>View Live Link</strong></a>
+    <p>React, Styled-Components, Storybook, Netlify</p>
+    <a href="https://reactstyled-n01.netlify.app/"> <strong>Live Link</strong></a>
     ·
     <a href="https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj"> <strong>Frontendmentor</strong></a>
+    .
+    <a href="https://61dcd17b675c7a003aef85f1-vvklbfcdze.chromatic.com/"> <strong>Storybook</strong></a>
 </div>
   <br/>
   <br/>
@@ -25,9 +27,9 @@ Instead of my usual process of developing UI by just writing the HTML structure 
 
 ## ⚛️ UI Breakdown
 
-![Screenshot of Challenge](./src/assets/readme-uiBreakdown.jpg)
+<a href="https://www.figma.com/file/YJaOM8biAeaVahPYgw2DLf/Frontendmentor?node-id=0%3A1">![Screenshot of Challenge](./src/assets/readme-uiBreakdown.jpg)</a>
 
-<p align="center">A quick UI breakdown of the components in Figma</p>
+<p align="center">A quick UI breakdown of the components in <a href="https://www.figma.com/file/YJaOM8biAeaVahPYgw2DLf/Frontendmentor?node-id=0%3A1">Figma</a></p>
 <br/>
 
 ## 🧠 What I Learned
