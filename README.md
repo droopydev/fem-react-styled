@@ -14,7 +14,13 @@ This is my second attempt at FEMentor. I previously attempted some of the challe
 What I like about FEMentor is that as developers wanting to practise and try out new technologies, we tend to get stuck in thinking of a project idea. FEMentor eliminates that by providing the idea and resources, just as how we might receive design specs from a designer on the job.
 <br/>
 
+<!--- TODO -->
+<!--- ### 🏗 Architecture of the stack
+
+This project was set up using NX Monorepo. The reson I chose
+<br/> -->
 <p align="right">(<a href="#top">back to top</a>)</p>
+
 ### 🎯 Objectives of the Stack
 
 - Practise React
@@ -23,10 +29,14 @@ What I like about FEMentor is that as developers wanting to practise and try out
 - Conduct visual regression test with Chromatic
 - Understand how Monorepo works and why many are using it to create Design Systems and libraries.
 
+<!--- TODO -->
+<!-- I described more on my reasoning for the using the stacks at ____ -->
 <br/>
 <p align="right">(<a href="#top">back to top</a>)</p>
-###🧗 Challenges Attempted
-| Challenge | Difficulty | Personal Wins |
-| :------------------------------------------------ | :------------------------------------------------------------- |:------------------------------------------------------------- |
-| [**Order Summary Component**](/apps/no1) | Newbie | Wrote my first stories|
-| [**3-Column Preview Card Component**](/apps/n02/) | Newbie | Deployed Storybook with Chromatic |
+
+### 🧗 Challenges Attempted
+
+| Challenge                                         | Difficulty | Personal Wins                     |
+| :------------------------------------------------ | :--------- | :-------------------------------- |
+| [**Order Summary Component**](/apps/no1)          | Newbie     | Wrote my first stories            |
+| [**3-Column Preview Card Component**](/apps/n02/) | Newbie     | Deployed Storybook with Chromatic |
