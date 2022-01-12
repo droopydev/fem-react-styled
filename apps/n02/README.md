@@ -1,11 +1,11 @@
 <div align="center">
     <h1>3-column preview card component challenge hub</h2>
     <p>React, Styled-Components, Storybook, Netlify</p>
-    <a href="https://reactstyled-n02.netlify.app/"> <strong>Live Link</strong></a>
+    <a target="_blank" rel="noopener noreferrer" href="https://reactstyled-n02.netlify.app/"> <strong>Live Link</strong></a>
     ·
-    <a href="https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-"> <strong>Frontendmentor</strong></a>
+    <a target="_blank" rel="noopener noreferrer" href="https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-"> <strong>Frontendmentor</strong></a>
     .
-    <a href="https://61dbe13082d897003a6fd67a-eyrlevycbg.chromatic.com/"> <strong>Storybook</strong></a>
+    <a target="_blank" rel="noopener noreferrer" href="https://61dbe13082d897003a6fd67a-eyrlevycbg.chromatic.com/"> <strong>Storybook</strong></a>
 </div>
   <br/>
   <br/>
@@ -29,9 +29,9 @@ For example, I was trying to change the background-color of the card in the Stor
 
 ## ⚛️ UI Breakdown
 
-<a href="https://www.figma.com/file/YJaOM8biAeaVahPYgw2DLf/Frontendmentor?node-id=9%3A17">![Screenshot of Challenge](./src/assets/readme-uiBreakdown.jpg)</a>
+<a target="_blank" rel="noopener noreferrer" href="https://www.figma.com/file/YJaOM8biAeaVahPYgw2DLf/Frontendmentor?node-id=9%3A17">![Screenshot of Challenge](./src/assets/readme-uiBreakdown.jpg)</a>
 
-<p align="center">A simple UI breakdown and style guide for the component. Designed in <a href="https://www.figma.com/file/YJaOM8biAeaVahPYgw2DLf/Frontendmentor?node-id=9%3A17">Figma</a></p>
+<p align="center">A simple UI breakdown and style guide for the component. Designed in <a href="https://www.figma.com/file/YJaOM8biAeaVahPYgw2DLf/Frontendmentor?node-id=9%3A17" target="_blank" rel="noopener noreferrer">Figma</a></p>
 <br/>
 
 ## 🧗 Challenges Faced
