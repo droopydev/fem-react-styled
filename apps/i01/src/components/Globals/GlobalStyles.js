@@ -56,6 +56,11 @@ const GlobalCSSProperties = `
         --font-size-2xl: calc(var(--font-size-xl) * var(--type-scale-ratio));
         --font-size-3xl: calc(var(--font-size-2xl) * var(--type-scale-ratio));
 
+        --checkbox-color-border-default: ${TOKENS.colors.darkTheme.gray_30};
+        --checkbox-color-border-hover: ${TOKENS.colors.darkTheme.secondary};
+        --checkbox-color-bg-active: ${TOKENS.colors.darkTheme.gradient};
+
+        --surface-color: ${TOKENS.colors.darkTheme.black_10};
         --text-color: ${TOKENS.colors.darkTheme.neutral_white};
         --bg-color: ${TOKENS.colors.darkTheme.neutral_black};
     }
@@ -67,9 +72,22 @@ const GlobalCSSProperties = `
 
 `;
 
+const GlobalClasses = `
+    .visually-hidden {
+        position: absolute !important;
+        clip: rect(1px, 1px, 1px, 1px) !important;
+        padding:0 !important;
+        border:0 !important;
+        height: 1px !important;
+        width: 1px !important;
+        overflow: hidden !important;
+    }
+`;
+
 export const GlobalStyles = createGlobalStyle`
       ${GlobalReset}
       ${GlobalCSSProperties}
+      ${GlobalClasses}
 
       h1 { font-size: var(--font-size-3xl); }
       h2 { font-size: var(--font-size-2xl); }
@@ -81,7 +99,7 @@ export const GlobalStyles = createGlobalStyle`
       body {
           background-color: var(--bg-color);
           color: var(--text-color);
-          font-family: var(--font-family-primary);
+          font-family: var(--font-family-primary) !important;
           font-size: var(--font-base-size);
       }
     `;
